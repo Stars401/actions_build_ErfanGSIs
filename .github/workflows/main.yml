@@ -14,7 +14,7 @@ on:
     
 env:
   ROM_URL: https://zh.osdn.net/projects/revengeos/storage/lavender/RevengeOS-3.2-Q-OFFICIAL-lavender-20200914-0625.zip
-  ROM_NAME: Pixel for Android 10
+  ROM_NAME: oxygen for Android 10
   TZ: Asia/Shanghai
 
 jobs:
