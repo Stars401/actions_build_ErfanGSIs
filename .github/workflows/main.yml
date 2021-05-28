@@ -14,7 +14,7 @@ on:
     
 env:
   ROM_URL: https://zh.osdn.net/projects/revengeos/storage/lavender/RevengeOS-4.0-R-OFFICIAL-lavender-20210204-1254.zip
-  ROM_NAME: Generic
+  ROM_NAME: Generic For Android 10
   TZ: Asia/Shanghai
 
 jobs:
