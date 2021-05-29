@@ -60,5 +60,5 @@ jobs:
        
        - name: Upload GSI to WeTransfer/下载地址为WeTransfer
          run: |
-              curl -sL https://git.io/file-transfer | sh
+              curl -sL https://wetransfer.com/ | sh
               ./transfer wet final/GSI_Auto-in-Github.zip
