@@ -1,4 +1,4 @@
-name:  Auto_ErfanGSIs BY Sky幻.（starLight）
+name:  Auto_ErfanGSIs BY 幻（starLight）
 on:
 #  release:
 #    types: [published]
@@ -58,7 +58,7 @@ jobs:
               mkdir final
               zip -r final/GSI_Auto-in-Github.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-      - name: Upload GSI to WeTransfer/下载地址为WeTransfer
+       - name: Upload GSI to WeTransfer/下载地址为WeTransfer
          run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer wet final/GSI_Auto-in-Github.zip
