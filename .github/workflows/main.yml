@@ -58,7 +58,8 @@ jobs:
               mkdir final
               zip -r final/GSI_Auto-in-Github.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to WeTransfer/下载地址为WeTransfer
+       - name: Uploading SGSI to WeTransfer
+         if: steps.var.outputs.upload_transfer == 'true' 
          run: |
-              curl -sL https://wetransfer.com/ | sh
-              ./transfer wet final/GSI_Auto-in-Github.zip
+           curl -sL https://git.io/file-transfer | sh
+           ./transfer wet ./SGSI-build-tool-11/11/${{ steps.var.outputs.pack_sgsi }}
