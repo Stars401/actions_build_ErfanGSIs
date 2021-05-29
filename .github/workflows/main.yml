@@ -13,8 +13,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://osdn.net/projects/revengeos/storage/lavender/RevengeOS-3.2-Q-OFFICIAL-lavender-20200914-0625.zip
-  ROM_NAME: Generic For Android 10
+  ROM_URL: https://downloads.droidontime.com/dot11/pine/vanilla/dotOS-R-v5.1-pine-OFFICIAL-20210528-1238.zip
+  ROM_NAME: Generic For Android 11
   TZ: Asia/Shanghai
 
 jobs:
